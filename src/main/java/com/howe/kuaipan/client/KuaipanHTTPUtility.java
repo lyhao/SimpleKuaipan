@@ -13,12 +13,12 @@ import java.util.Map;
  */
 public class KuaipanHTTPUtility {
     public final static int BUFFER_SIZE = 4048;
-    public final static String API_HOST = "openapi.com.howe.kuaipan.cn";
-    public final static String CONTENT_HOST = "api-content.dfs.com.howe.kuaipan.cn";
-    public final static String CONV_HOST = "conv.com.howe.kuaipan.cn";
+    public final static String API_HOST = "openapi.kuaipan.cn";
+    public final static String CONTENT_HOST = "api-content.dfs.kuaipan.cn";
+    public final static String CONV_HOST = "conv.kuaipan.cn";
 
-    public final static String AUTH_URL = "https://www.com.howe.kuaipan.cn/api.php?ac=open&op=authorise&oauth_token=";
-    public final static String UPLOAD_LOCATE_URL = "http://api-content.dfs.com.howe.kuaipan.cn/1/fileops/upload_locate";
+    public final static String AUTH_URL = "https://www.kuaipan.cn/api.php?ac=open&op=authorise&oauth_token=";
+    public final static String UPLOAD_LOCATE_URL = "http://api-content.dfs.kuaipan.cn/1/fileops/upload_locate";
 
 
     private KuaipanHTTPUtility() {
